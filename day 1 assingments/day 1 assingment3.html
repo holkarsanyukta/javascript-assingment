@@ -1,0 +1,42 @@
+<html>
+<head>
+<h1> Data types in javascript</h1>
+<body><pre>
+<b><h3>Javascript is a dynamic type.
+Dynamic type means same variable can hold different datatypes.</h3></b>
+
+<h4>Data types are used to classify one particular type of data in programming languages. For instance, a number and a string of characters are different types of data that will be treated differently by JavaScript.
+</h4>
+
+1. The number type represents both integer and floating point numbers. There are many operations for numbers, e.g. multiplication *, division /, addition +, subtraction -, and so on.
+<b>eg:      var a=2 ,b=4.3 ;      //variable can be interger or float
+              
+
+2. A string in JavaScript must be surrounded by quotes. It represents a word or series of words.
+<b>eg:    var  a="sanyukta";</b>
+
+  
+3. The boolean type has only two values: true and false. This type is commonly used to store yes/no values: true means “yes, correct”, and false means “no, incorrect”.
+<b>eg:     var x=5 , y=5 , z=6;
+                 (x==y) ;     //returns True
+                (x==z) ;      //returns False</b>
+
+4. JavaScript arrays are written with square brackets.Array items are separated by commas.The following code declares (creates) an array called cars, containing three items (car names):
+    Array indexes are zero-based, which means the first item is [0], second is [1], and so on.
+<b>eg:     var cars = ["Saab", "Volvo", "BMW"];        //array</b>
+
+
+5. JavaScript objects are written with curly braces {}.Object properties are written as name:value pairs, separated by commas.The object (person) in the example above has 4 properties: firstName, lastName, age, and eyeColor.
+<b>eg:        var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};</b>
+
+
+6. In JavaScript null is "nothing". It is supposed to be something that doesn't exist.Unfortunately, in JavaScript, the data type of null is an object.You can consider it a bug in JavaScript that typeof null is an object. It should be null.You can empty an object by setting it to null.
+<b>eg:      var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+                    person = null;    // Now value is null, but type is still an object</b>
+
+7. In JavaScript, a variable without a value, has the value undefined. The type is also undefined.Any variable can be emptied, by setting the value to undefined. The type will also be undefined.
+<b>eg:      var car;    // Value is undefined, type is undefined</b>
+
+</pre></body>
+</head>
+</html>
